@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap");
+
+body {
+  margin: 0;
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.about_main {
+  font-family: "Poppins", sans-serif;
+  margin-top: 3%;
+  margin-left: 5%;
+  color: white;
+}
+.name {
+  font-size: 2.6rem;
+}
+.right_main {
+  font-family: "Poppins", sans-serif;
+  margin-top: 3%;
+  margin-right: 5%;
+  color: black;
+  text-align: right;
+}
+#dhakaTime {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+#dhakaCurrentDate {
+  padding-top: 0;
+  margin-top: 0;
+  font-weight: 600;
+}
+.e_signature_small {
+  margin-top: 0;
+  font-size: 0.8rem;
+  margin-bottom: 6%;
+}
+.topic {
+  font-size: 0.9rem;
+}
+.heading {
+  margin-top: 3%;
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+.link_one > a {
+  font-size: 0.9rem;
+  position: relative;
+  text-decoration: none;
+}
+.link_one > a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.link_one > a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+.footer {
+  position: fixed;
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+.footer_mobile {
+  position: fixed;
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: none;
+}
+.note_bottom {
+  display: none;
+}
+.credit_images {
+  box-shadow: inset 0 0 0 0 white;
+  color: white;
+  padding: 0 0.25rem;
+  margin: 0 -0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.credit_images:hover {
+  color: black;
+  box-shadow: inset 200px 0 0 0 white;
+}
+.blog {
+  text-align: right;
+}
+.blog_heading {
+  font-weight: bold;
+  margin-top: 5%;
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+.none {
+  margin-top: 2%;
+  color: darkgrey;
+  font-style: italic;
+  cursor: default;
+}
+.book_corner_heading {
+  font-weight: bold;
+  margin-top: 5%;
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+.book {
+  margin-top: 2%;
+}
+.book_name {
+  font-weight: 550;
+  font-size: 1rem;
+}
+.book_author {
+  font-size: 0.7rem;
+}
+.font_bangla {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 500;
+}
+.book_footer {
+  color: darkgrey;
+  margin-top: 1%;
+  font-style: italic;
+  font-size: 0.6rem;
+}
