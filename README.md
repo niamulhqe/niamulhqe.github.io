@@ -1,7 +1,9 @@
-### Main Portfolio Website | niamulhqe.github.io
-🚧 Website is still on development 🚧
+##  🌐 niamulhqe.github.io
+🌎 Personal Site mostly based on Front-end.
 
-### Things which might be added:
+🚧 Still on development 🚧
+
+## Things which might be added:
 
 - [ ] Theme 
 - [ ] Blog
