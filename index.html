@@ -1,120 +1,55 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>niamulhqe</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive.css" />
-  </head>
-  <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="#">upgrade your browser</a> to improve your experience.
-      </p>
-    <![endif]-->
-    <section class="about_main">
-      <div class="name">Niamul Haque</div>
-      <p class="e_signature_small">@niamulhqe</p>
+<html lang="en">
 
-      <div class="about_me">
-        <div class="heading">About me</div>
-        <div class="topic">
-          Student; SOS Hermann Gmeiner College Dhaka, Bangladesh
-        </div>
-      </div>
-      <div class="extra_activities">
-        <div class="heading">Extracurricular Activities</div>
-        <div class="topic">
-          Executive Member (2024); Hermann Gmeiner IT Club
-        </div>
-        <div class="topic">
-          Executive Member (2024); Hermann Gmeiner Debating Club
-        </div>
-      </div>
-      <div class="Skills">
-        <div class="heading">Skills</div>
-        <div class="topic">Front-end Web Development</div>
-        <div class="topic">Discord Bot Development (Python)</div>
-      </div>
-      <div class="socials">
-        <div class="heading">Socials</div>
-        <div class="link_one">
-          <a target="_blank" href="https://github.com/niamulhqe">Github</a>
-        </div>
-        <div class="link_one">
-          <a
-            target="_blank"
-            href="https://www.linkedin.com/in/niamul-haque-4b3703258/"
-            >linkedin</a
-          >
-        </div>
-        <div class="link_one">
-          <a target="_blank" href="https://goodreads.com/niamulhqe"
-            >Goodreads</a
-          >
-        </div>
-      </div>
-    </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>niamulhqe</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
 
-    <section class="right_main">
-      <div id="dhakaTime"></div>
-      <p id="dhakaCurrentDate"></p>
-      <div class="blog">
-        <div class="blog_heading">Articles</div>
-        <div class="none">Currently None</div>
-      </div>
-      <div class="book_corner">
-        <div class="book_corner_heading">Book Corner</div>
-        <div class="book">
-          <div class="book_name">The Silent Patient</div>
-          <div class="book_author">by Alex Michaelides</div>
-        </div>
-        <div class="book">
-          <div class="book_name">The Fault in Our Stars</div>
-          <div class="book_author">by John Green</div>
-        </div>
-        <div class="book">
-          <div class="book_name">They Both Die at the End</div>
-          <div class="book_author">by Adam Silvera</div>
-        </div>
-        <div class="book">
-          <div class="book_name font_bangla" style="font-size: 1.2rem">
-            অপেক্ষা
-          </div>
-          <div class="book_author">
-            by
-            <span class="font_bangla" style="font-size: 0.8rem"
-              >হুমায়ূন আহমেদ</span
-            >
-          </div>
-          <div class="book_footer">for more books visit Goodreads</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="footer">
+<body>
+  <section class="nameNstuff">
+    <div class="name">Niamul Haque <span style="font-size: 1.2rem; font-style: italic;">(@niamulhqe)</span></div>
+    <div class="info_short">👋 Just a random student, front-end dev enthusiast, unfrequent clash of clans player from Bangladesh.</div>
+    <div class="time">🕐 It's Currently <span style="font-weight: bold;" id="time"></span>
+      <script>function updateTime() {let time = new Date().toLocaleString("en-US", {timeZone: "Asia/Dhaka", hour12: true, hour: '2-digit', minute: '2-digit', second: '2-digit'}); document.getElementById("time").innerHTML = time;} updateTime(); setInterval(updateTime, 1000);</script>
+      in Dhaka, Bangladesh.
+    </div>
+  </section>
+  <section class="eduNstuff">
+    <details>
+      <summary>
+        👉 Education
+      </summary>
       <p>
-        <a
-          href="https://unsplash.com/photos/a-black-and-white-photo-of-a-vase-E6Ahvcjddk0"
-          target="_blank"
-          class="credit_images"
-          >© Unsplash</a
-        >
+        Currently a Secondary School Student at <i>SOS Hermann Gemminer College Dhaka, Bangladesh</i>.
       </p>
-    </section>
-    <section class="footer_mobile">
-      <p class="note_bottom">
-        Mobile site is currently in development. Please view from Desktop or PC.
+    </details>
+    <details>
+      <summary>
+        👉 Reading & Writing
+      </summary>
+      <p>
+        Currently not reading any specific book and no writing.
+      <div class="updaeteINFO">Last Updated on 12/10/2024</span>
+        </p>
+    </details>
+    <details>
+      <summary>
+        👉 Contacts
+      </summary>
+      <p>
+      <div>Email - drop2niamul@proton.me</div>
+      <div>Github - github.com/niamulhqe</div>
+      <div>Goodreads - goodreads.com/niamulhqe</div>
       </p>
-    </section>
-    <script src="script.js" async defer></script>
-  </body>
+    </details>
+    <div class="footer">
+      <p>Made with 💙&☕<br>Last Updated on 12/10/2024</p>
+    </div>
+  </section>
+  <script src="/script.js"></script>
+</body>
+
 </html>
